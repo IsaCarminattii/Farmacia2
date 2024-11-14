@@ -1,0 +1,52 @@
+:root {
+    --cor-1: #e23e57;
+    --cor-2: #ffffff;
+    --cor-3: #e96a7e;
+    --cor-4: #ce1f3a;
+    --cor-5: #e6e6e6;
+    --cor-6: #ef97a4;
+    --verde: #4caf50;
+    --amarelo: #ffc107;
+}
+
+.sistema-senhas {
+    text-align: center;
+    background-color: var(--cor-5);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: var(--cor-2);
+}
+
+.btn-normal {
+    background-color: var(--verde);
+}
+
+.btn-preferencial {
+    background-color: var(--amarelo);
+}
+
+.btn-chamar {
+    background-color: var(--cor-1);
+}
+
+.senha-atual {
+    margin-top: 20px;
+    font-size: 24px;
+    color: var(--cor-4);
+}
+
+.fila-status {
+    margin-top: 10px;
+    font-size: 16px;
+    color: var(--cor-3);
+}

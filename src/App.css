@@ -1,0 +1,15 @@
+
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: var(--cor-5);
+  font-family: Arial, sans-serif;
+  color: var(--cor-1);
+}
+
+h1 {
+  color: var(--cor-1);
+}
